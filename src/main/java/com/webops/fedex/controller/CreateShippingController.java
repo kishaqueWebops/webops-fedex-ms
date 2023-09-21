@@ -2,7 +2,6 @@ package com.webops.fedex.controller;
 
 import com.google.gson.Gson;
 import com.squareup.okhttp.*;
-//import io.swagger.annotations.Api;
 
 import com.webops.fedex.models.*;
 import com.webops.fedex.models.Address;
