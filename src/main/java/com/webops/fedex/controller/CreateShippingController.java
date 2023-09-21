@@ -37,6 +37,8 @@ public class CreateShippingController {
         try {
             OkHttpClient client = new OkHttpClient();
 
+            log.info("Working");
+
             AuthToken authToken = fedExAuthToken.getAuthToken();
 
         MediaType mediaType = MediaType.parse("application/json");
