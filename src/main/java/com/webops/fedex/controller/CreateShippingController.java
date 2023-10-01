@@ -59,6 +59,9 @@ public class CreateShippingController {
 
             return ResponseEntity.ok(response);
         } catch (IOException e) {
+            //throw new RuntimeException(e);
+            //Do Nothing
+
             return null;
         }
     }
