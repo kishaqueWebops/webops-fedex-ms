@@ -54,6 +54,7 @@ public class CreateShippingController {
                 .addHeader("Authorization", "Bearer " + token)
                 .build();
 
+            log.info("Working");
 
             Response response = client.newCall(request).execute();
 
