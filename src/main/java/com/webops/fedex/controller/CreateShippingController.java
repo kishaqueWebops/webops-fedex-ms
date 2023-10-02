@@ -54,11 +54,15 @@ public class CreateShippingController {
                 .addHeader("Authorization", "Bearer " + token)
                 .build();
 
+            log.info("Working");
 
             Response response = client.newCall(request).execute();
 
             return ResponseEntity.ok(response);
         } catch (IOException e) {
+            //throw new RuntimeException(e);
+            //Do Nothing
+
             return null;
         }
     }
